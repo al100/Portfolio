@@ -1,1 +1,1 @@
-heroku buildpacks:set heroku-community/static
+https://github.com/heroku/heroku-buildpack-static.git
