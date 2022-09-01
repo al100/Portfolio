@@ -16,7 +16,7 @@ body {
     line-height: 1.7em;
     font-family: "Roboto", sans-serif;
     font-size: 1.125rem;
-    background-image: linear-gradient(to bottom, rgb(12 14 17), rgb(19 20 32 / 90%)), url(../images/bg.jpg);
+    background-image: linear-gradient(to bottom, rgb(12 14 17), rgb(19 20 32 / 90%)), url(../img/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -61,7 +61,7 @@ body {
 .sidebar {
     background: #161820;
     position: sticky;
-    top: 20px;
+    top: 5px;
 }
 .profile-pic {
     max-width: 120px;
@@ -125,13 +125,18 @@ body {
     color: #c4c9d9;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 767px) {
     body {
         font-size: 1rem;
     }
 
     .content h3 {
         font-size: 1.2rem;
+    }
+
+    .container .row .col-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
     }
 }
 
